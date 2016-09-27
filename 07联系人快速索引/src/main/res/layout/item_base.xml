@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_base_word"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="A"
+        android:paddingLeft="7dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:background="@drawable/word_bottom"/>
+
+    <TextView
+        android:id="@+id/tv_base_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="阿福"
+        android:textColor="#DD000000"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        />
+
+</LinearLayout>
